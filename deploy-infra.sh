@@ -27,7 +27,7 @@ aws cloudformation deploy \
     CodePipelineBucket=$CODEPIPELINE_BUCKET
 
 # Deploy the CloudFormation template
-echo -e "\n\n============ Deploying mail.yml ============"
+echo -e "\n\n============ Deploying main.yml ============"
 aws cloudformation deploy \
   --region $REGION \
   --profile $CLI_PROFILE \
